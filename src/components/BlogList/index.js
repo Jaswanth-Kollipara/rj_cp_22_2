@@ -2,7 +2,7 @@ import BlogItem from '../BlogItem'
 import './index.css'
 
 const BlogList = props => {
-  const blogsList = props
+  const {blogsList} = props
   return (
     <div>
       <ul>
